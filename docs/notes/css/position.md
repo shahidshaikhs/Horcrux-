@@ -1,4 +1,4 @@
-# Positioning in CSS?
+# Positioning in CSS
 
 There are five different position values:
 

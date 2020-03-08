@@ -1,4 +1,4 @@
-# How CSS specificity works?
+# CSS specificity
 
 1. Specificity determines, which CSS rule is applied by the browsers.
 2. Specificity is usually the reason why your CSS-rules don’t apply to some elements, although you think they should.
