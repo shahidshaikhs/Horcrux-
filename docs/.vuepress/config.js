@@ -1,7 +1,7 @@
 module.exports = {
   host: "localhost",
-  title: "Turtle Notes",
-  description: "Just playing around",
+  title: "Realm",
+  description: "I keep it full of notes for reference and sharing. Most are related to web development but could honestly be about anything - nonfiction, fiction, general life skills and topics, and whatever else I want remember without relying on my unreliable brain.",
   head: [
     [
       "link",
@@ -50,9 +50,9 @@ module.exports = {
     ["meta", { name: "theme-color", content: "#ffffff" }]
   ],
   themeConfig: {
-    nav: [{ text: "Another Page", link: "/home.html" }],
+    nav: [{ text: "Portfolio", link: "https://shahidshaikh.com" }],
     sidebar: [
-      "/",
+      // "/",
       {
         title: "🧁 Javascript ES6",
         children: [
@@ -76,7 +76,7 @@ module.exports = {
         ]
       },
       {
-        title: "✨ Cascading Style Sheets",
+        title: "🦊 Cascading Style Sheets",
         children: [
           "/notes/css/boxmodal",
           "/notes/css/position",
