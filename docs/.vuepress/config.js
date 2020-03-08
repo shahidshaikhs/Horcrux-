@@ -54,14 +54,37 @@ module.exports = {
     sidebar: [
       "/",
       {
-        title: "Javascript",
+        title: "🧁 Javascript ES6",
         children: [
+          "/notes/javascript/letAndVar",
           "/notes/javascript/datatypes",
+          "/notes/javascript/ternary",
           "/notes/javascript/eventbubbling",
+          "/notes/javascript/delegation",
+          "/notes/javascript/methodsOrFunctions",
           "/notes/javascript/callback",
+          "/notes/javascript/promises",
           "/notes/javascript/async",
           "/notes/javascript/hoisting",
+          "/notes/javascript/closures",
+          "/notes/javascript/spreadrest",
+          "/notes/javascript/this",
+          "/notes/javascript/oops",
           "/notes/javascript/classes",
+          "/notes/javascript/getpost",
+          "/notes/javascript/localstorage",
+        ]
+      },
+      {
+        title: "✨ Cascading Style Sheets",
+        children: [
+          "/notes/css/boxmodal",
+          "/notes/css/position",
+          "/notes/css/aligncenter",
+          "/notes/css/specificity",
+          "/notes/css/units",
+          "/notes/css/keyframes",
+          "/notes/css/hardwareA"
         ]
       }
     ],
