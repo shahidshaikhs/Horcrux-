@@ -57,7 +57,11 @@ module.exports = {
         title: "Javascript",
         children: [
           "/notes/javascript/datatypes",
+          "/notes/javascript/eventbubbling",
+          "/notes/javascript/callback",
+          "/notes/javascript/async",
           "/notes/javascript/hoisting",
+          "/notes/javascript/classes",
         ]
       }
     ],

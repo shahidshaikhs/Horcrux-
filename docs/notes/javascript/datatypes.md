@@ -232,3 +232,69 @@ The `typeof` operator allows us to see which type is stored in a variable.
 - Returns a string with the name of the type, like `"string"`.
 - For `null` returns `"object"` – this is an error in the language, it’s not actually an object.
 
+## Primitive & Non Primitive Datatypes
+
+JavaScript provides different data types to hold different types of values. There are two types of data types in JavaScript:
+
+1. Primitive values
+2. Non-primitive values (object references)
+
+Data types that are known as primitive values in JavaScript are numbers, strings, booleans, null, undefined. Objects such as functions and arrays are referred to as non-primitive values.
+
+The fundamental difference between primitives and non-primitives is that primitives are immutable and non-primitives are mutable.
+
+**Primitives** are known as being immutable data types because there is no way to change a primitive value once it gets created.
+
+```js
+var string = "This is a string.";
+string[1] = "H";
+console.log(string); // 'This is a string.'
+```
+
+Primitives are compared by value. Two values are strictly equal if they have the same value.
+
+```js
+    var number1 = 5;
+    var number2 = 5;
+    number1 === number 2; // true
+    var string1 = 'This is a string.';
+    var string2 = 'This is a string.';
+    string1 === string2; // true
+```
+
+**Non-primitive** values are mutable data types. The value of an object can be changed after it gets created.
+
+```js
+var arr = ["one", "two", "three", "four", "five"];
+arr[1] = "TWO";
+console.log(arr); // [ 'one', 'TWO', 'three', 'four', 'five' ];
+```
+
+Objects are not compared by value. This means that even if two objects have the same properties and values, they are not strictly equal. Same goes for arrays. Even if they have the same elements that are in the same order, they are not strictly equal.
+
+````js
+    var obj1 = { 'cat': 'playful' };
+    var obj2 = { 'cat': 'playful' };
+    obj1 === obj2;  // false
+    var arr1 = [ 1, 2, 3, 4, 5 ];
+    var arr2 = [ 1, 2, 3, 4, 5 ];
+    arr1 === arr2;  // false
+
+Non primitive values can also be referred to as reference types because they are being compared by reference instead of value. Two objects are only strictly equal if they refer to the same underlying object.
+```js
+    var obj3 = { 'car' : 'purple' }
+    var obj4 = obj3;
+    obj3 === obj4;  // true
+````
+
+You can check if two objects are the same by doing a deep equals comparison to go through each of the properties to determine if two objects have the exact same properties.
+
+### Summary (Primitive & Non Primitive)
+---
+When you assign a variable a value, the JavaScript engine must determine whether the value is a primitive or a reference value.
+
+If the variable stores a primitive value, when you manipulate its value, you are working on the actual value stored in the variable. In other words, the variable that stores a primitive value is accessed *by value*.
+
+Unlike the primitive value, when you manipulate an object, you are working on the *reference* to that object, rather than the actual object. In short, a variable that stores an object is accessed *by reference*.
+
+Primitive variables are stored on the stack, whereas the reference type variables are stored on the heap. When you create an object its content is stored on the heap and then a pointer is set in the stack with the variable name pointing to its content.
