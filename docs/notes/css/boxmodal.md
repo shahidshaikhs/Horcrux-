@@ -19,14 +19,15 @@ If a box is defined as a block, it will extend in the inline direction to fill s
 - Their width and height properties will apply
 - Padding, margins and border will cause other element to move away from the box
   This behavior of block boxes can be changed in CSS with the display property which accepts values like inline, flex, grid.
-  ```CSS
-  * {
-  outline: 3px solid #1560bd;
-  margin-bottom: 1.5em;
-  background-color: #f9f9fa;
-  display: inline; /* Add this */
-  }
-  ```
+
+```CSS
+* {
+outline: 3px solid #1560bd;
+margin-bottom: 1.5em;
+background-color: #f9f9fa;
+display: inline; /* Add this */
+}
+```
 
 ## Inline Property
 
