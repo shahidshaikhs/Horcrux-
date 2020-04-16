@@ -1,6 +1,6 @@
 module.exports = {
   host: "localhost",
-  title: "Realm",
+  title: "The Exocortex",
   description: "I keep it full of notes for reference and sharing. Most are related to web development but could honestly be about anything - nonfiction, fiction, general life skills and topics, and whatever else I want remember without relying on my unreliable brain.",
   head: [
     [
