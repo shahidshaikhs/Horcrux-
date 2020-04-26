@@ -89,6 +89,12 @@ module.exports = {
         ],
       },
       {
+        title: "Github",
+        children: [
+          "/notes/github/main",
+        ],
+      },
+      {
         title: "Bookmarks",
         children: [
           "/notes/bookmarks/css",
