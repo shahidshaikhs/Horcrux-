@@ -23,3 +23,9 @@
 [JavaScript Course for Beginners - CodeOnce](https://www.youtube.com/watch?v=YMvzfQSI6pQ)
 
 [Javascript - Hitesh Choudhary](https://www.youtube.com/watch?v=dlfrWbYk1v0&list=PLRAV69dS1uWTSu9cVg8jjXW8jndOYYJPP)
+
+## Reference
+
+[JavaScript utilities in single line of code! No more!](https://1loc.dev/)
+
+[How to manage HTML Dom with Vanilla Javascript](https://htmldom.dev/)

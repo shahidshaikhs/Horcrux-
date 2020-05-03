@@ -171,3 +171,11 @@ git clone <repo link>
 3. Create a pull request with this new branch
 
 Also, always make sure that you pull from master before creating a new branch.
+
+# Forking
+A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project. Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea.
+
+Once you fork the project and make changes to the same you can then contriubte to the origin repository by following below steps:
+
+1. Go to the original repo and click on 'New Pull Request'.
+2. The authoer of the original repo will merge the changes if they like your changes.

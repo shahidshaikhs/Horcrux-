@@ -41,6 +41,8 @@ This list contains all the CSS related links that I have found useful. The list 
 
 [CSS Flexbox Tutorial by TheNetNinja](https://www.youtube.com/watch?v=Y8zMYaD1bz0&list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG)
 
+[CSS Layout Examplesx](https://csslayout.io/patterns)
+
 
 ## CSS Animations
 
@@ -70,3 +72,4 @@ This list contains all the CSS related links that I have found useful. The list 
 [Tailwind CSS](https://tailwindcss.com/)
 
 [Bootstrap 4](https://getbootstrap.com/)
+
